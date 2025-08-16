@@ -46,7 +46,54 @@
 // "hitesh"=> true
 // ""=>false
 
-let someNumber=33
-let stringNumber=String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// let someNumber=33
+// let stringNumber=String(someNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
+
+// let str1="rohit"
+// let str2=" gupta"
+// let str3=str1+str2
+// console.log(str3)
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+2+"2")
+
+
+//Primitive data types
+//7 types String, Number, Boolean, null, undefined, symbol, BigInt
+
+//Reference types (Non Primitive)
+//Array, Objects, Functions
+//JavaScript is a dynamically typed language
+
+// const score=100
+// const scoreValue=100.3
+
+// const isLoggedIn=false
+// const outsideTemp=null
+
+// let userEmail;
+// const id=Symbol('123')
+const anotherId=Symbol('123')
+// console.log(id===anotherId)
+
+// const bigNumber=4573012668423698742n
+
+
+const heros = ["shaktiman","naagraj","doga"]
+
+let obj={
+  name: "hitesh",
+  age: 22
+}
+
+const myFunc=function(){
+  console.log("Hello World");
+}
+console.log(typeof(obj))
+console.log(typeof heros)
+
+console.log(typeof(anotherId))
