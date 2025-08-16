@@ -77,23 +77,38 @@
 
 // let userEmail;
 // const id=Symbol('123')
-const anotherId=Symbol('123')
-// console.log(id===anotherId)
+// const anotherId=Symbol('123')
+// // console.log(id===anotherId)
 
-// const bigNumber=4573012668423698742n
+// // const bigNumber=4573012668423698742n
 
 
-const heros = ["shaktiman","naagraj","doga"]
+// const heros = ["shaktiman","naagraj","doga"]
 
-let obj={
-  name: "hitesh",
-  age: 22
+// let obj={
+//   name: "hitesh",
+//   age: 22
+// }
+
+// const myFunc=function(){
+//   console.log("Hello World");
+// }
+// console.log(typeof(obj))
+// console.log(typeof heros)
+
+// console.log(typeof(anotherId))
+
+let myYoutubename="hiteshchoudharydotcom"
+let anothername=myYoutubename
+anothername="chaiaurcode"
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl"
 }
-
-const myFunc=function(){
-  console.log("Hello World");
-}
-console.log(typeof(obj))
-console.log(typeof heros)
-
-console.log(typeof(anotherId))
+let userTwo=userOne
+userTwo.email="rohit@google.com"
+console.log(userOne)
+console.log(userTwo)
