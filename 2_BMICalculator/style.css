@@ -1,0 +1,143 @@
+/* .container {
+  width: 575px;
+  height: 825px;
+
+  background-color: #797978;
+  padding-left: 30px;
+}
+#height,
+#weight {
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+
+#weight-guide {
+  margin-left: 75px;
+  margin-top: 25px;
+}
+
+#results {
+  font-size: 35px;
+  margin-left: 90px;
+  margin-top: 20px;
+  color: rgb(241, 241, 241);
+}
+
+button {
+  width: 150px;
+  height: 35px;
+  margin-left: 90px;
+  margin-top: 25px;
+  background-color: #fff;
+  padding: 1px 30px;
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+
+  font-size: 25px;
+  cursor: pointer;
+}
+
+h1 {
+  padding-left: 15px;
+  padding-top: 25px;
+  text-align: center;
+} */
+
+
+/* Reset some default margins */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form p {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+label {
+  font-weight: bold;
+  color: #222; /* darker labels */
+  display: block;
+  margin-bottom: 5px;
+}
+
+#height,
+#weight {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 85%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+}
+
+#results {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Color coding for BMI result */
+.result-underweight {
+  color: #e67e22; /* orange */
+}
+
+.result-normal {
+  color: #27ae60; /* green */
+}
+
+.result-overweight {
+  color: #e74c3c; /* red */
+}
+
+#weight-guide {
+  margin-top: 25px;
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
